@@ -1,12 +1,15 @@
+import React from "react";
 import Navbar from "../components/shared/Navbar";
-import Registre from "../components/registre/Registre";
+import Login from "../components/login/Login";
 import Footer from "../components/shared/Footer";
-export default function Home() {
+const login = () => {
   return (
     <div>
       <Navbar signout={false} />
-      <Registre />
+      <Login />
       <Footer />
     </div>
   );
-}
+};
+
+export default login;

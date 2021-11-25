@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.container {
+  padding: 0;
+  margin: 0;
+  box-shadow: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.95rem;
+}
+.main {
+  width: 50%;
+  margin: auto;
+  color: white;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.sections {
+  width: 100%;
+}
+
+.sections {
+  position: relative;
+  color: black;
+  text-align: left;
+  height: 10rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.reg {
+  background-color: #f2f3f5;
+  border: 1px solid #2c2c30;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  width: 40%;
+  float: left;
+  height: 5rem;
+  padding: 2rem;
+  cursor: pointer;
+  transition: ease 0.4s;
+}
+.reg:hover {
+  background-color: #1f1f21;
+  color: white;
+}
+.check {
+  position: absolute;
+  left: 10px;
+  top: -5px;
+}
+.fa-check-circle {
+  font-size: 1.3rem;
+  color: #9e964a;
+}
+.reg1 {
+  background-color: #f2f3f5;
+  border: 1px solid #2c2c30;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  width: 40%;
+  float: left;
+  height: 5rem;
+  padding: 2rem;
+  cursor: pointer;
+}
+.reg1:hover {
+  background-color: #1f1f21;
+  color: white;
+  transition: ease 0.4s;
+}
+.fas {
+  font-size: 1.3rem;
+}
+.fa2 {
+  margin-bottom: 1rem;
+}
+.regG {
+  font-weight: bold;
+}
+
+.cont {
+  width: 100%;
+}
+
+.first,
+.last {
+  width: 45%;
+  padding: 15px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  border: 1px solid #2c2c30;
+  outline: none;
+  margin-left: 1rem;
+}
+.inp {
+  width: 95%;
+  padding: 15px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  border: 1px solid #2c2c30;
+  outline: none;
+}
+.inp:focus {
+  border: 1px solid black;
+}
+.btn {
+  cursor: pointer;
+  width: 20%;
+  text-align: center;
+  padding: 15px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  border: 1px solid #2c2c30;
+  outline: none;
+  color: #f2f3f5;
+  background-color: #080808;
+  transition: ease 0.4s;
+  margin-bottom: 6rem;
+}
+.btn:hover {
+  background-color: #171616;
+}
+.cont1 {
+  text-align: center;
+}
